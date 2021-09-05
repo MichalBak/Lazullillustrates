@@ -19,7 +19,7 @@ body {
     position: fixed;
     width: 20vw;
     height: 100%;
-    border: 1px solid grey;
+    background-color: whitesmoke;
     padding: 3rem 0;
 }
 
@@ -89,90 +89,20 @@ body {
 .wrapper .main_content {
     width: 100%;
     margin-left: 20vw;
+    display: flex;
 }
 
+.wrapper .main_content .ilustracje{
+    margin: 0;
+}   
 
-/*
-
-
-
-
-body {
-    font-family: sans-serif;
-    color: #525252;
-}
-.container {
-    display: inline-block;
-    height: 100vh;
+.main_content .ilustracje img {
+    float: left;
+    width: 26.5vw;
+    padding: 0.5vh;
 }
 
-.navbar {
-    margin-top: 5rem;
-    margin-left: 3rem;
+.main_content .ilustracje img:hover {
+    transform: scale(1.07);
+    transition: all 1s;
 }
-
-.clearfix::after {
-    content: "";
-    display: block;
-    clear: both;
-}
-
-#logo img {
-    width: 5em;
-    margin-left: 20%;
-    margin-top: 2rem;
-}
-
-.menu-illustration ul {
-    list-style: none;
-    font-size: 2rem;
-    padding: 1rem;
-}
-
-.menu-illustration li:not(:last-child) { 
-    margin-bottom: 1.5rem;  
- }
-
-.menu-illustration a{
-    text-decoration: none;
-    color: black;
-}
-
-.menu-illustration a:hover {
-    color: green ;
-    transition: all 0.75s;
-    
-}
-
-.menu-side-menu ul {
-    list-style: none;
-    font-size: 1.2rem;
-    margin-top: 3em;
-    margin-bottom: 4rem;
-}
-
-.menu-side-menu li:not(:last-child) { 
-    margin-bottom: 0.7rem;  
- }
-
-.menu-side-menu a {
-    text-decoration: none;
-    color: black; 
-}
-
-.menu-side-menu a:hover {
-    color: green ;
-    transition: all 0.75s; 
-}
-
-.useful-links a {
-    padding: 0.5em;
-}
-.portfolio-pics {
-    display: inline-block;
-}
-.pics-row {
-    background-color: lightseagreen;
-}
-
-*/
