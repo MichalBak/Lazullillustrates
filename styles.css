@@ -1,8 +1,114 @@
-.navbar {
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background: #f3f5f9;
+}
+
+.wrapper {
+    display: flex;
+    position: relative;
+}
+
+.wrapper .sidebar {
+    position: fixed;
+    width: 20vw;
+    height: 100%;
+    border: 1px solid grey;
+    padding: 3rem 0;
+}
+
+.wrapper .sidebar .logo {
+    margin: 3em;
+    text-align: center;
+}
+
+.wrapper .sidebar .logo img {
+    width: 13vh;
+}
+
+.wrapper .sidebar .menu-illustration ul {
+    list-style: none;
+    margin-top: 5vh;
+}
+
+.wrapper .sidebar .menu-illustration li:not(:last-child) { 
+    margin-bottom: 0.4vh;  
+ }
+
+ .wrapper .sidebar .menu-illustration a{
+    font-size: 2.5vh;
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 0.5em;
+    margin-left: 3vw;
+}
+
+.wrapper .sidebar .menu-illustration a:hover, .wrapper .sidebar .menu-side-menu a:hover {
+    color: green ;
+    transition: all 0.75s;
+    
+}
+
+.wrapper .sidebar .menu-side-menu ul {
+    list-style: none;
+    margin-top: 10vh;
+}
+
+.wrapper .sidebar .menu-side-menu li:not(:last-child) { 
+    margin-bottom: 0.2vh;  
+ }
+
+ .wrapper .sidebar .menu-side-menu a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 0.4em;
+    margin-left: 4vw;
+}
+
+.wrapper .sidebar .social_media {
+    position: absolute;
+    bottom: 5vh;
+    display: flex;
+}
+
+.wrapper .sidebar .social_media a{
+    display: block;
+    text-align: center;
+    margin-left: 2vw;
+    color: black;
+}
+
+.wrapper .main_content {
+    width: 100%;
+    margin-left: 20vw;
+}
+
+
+/*
+
+
+
+
+body {
+    font-family: sans-serif;
+    color: #525252;
+}
+.container {
     display: inline-block;
+    height: 100vh;
+}
+
+.navbar {
     margin-top: 5rem;
     margin-left: 3rem;
-    background-color: lightseagreen;
 }
 
 .clearfix::after {
@@ -59,9 +165,14 @@
     transition: all 0.75s; 
 }
 
-.useful-links {
-    margin-left: 40px;
-}
 .useful-links a {
-    padding: 2px;
+    padding: 0.5em;
 }
+.portfolio-pics {
+    display: inline-block;
+}
+.pics-row {
+    background-color: lightseagreen;
+}
+
+*/
