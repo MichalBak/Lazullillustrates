@@ -23,15 +23,6 @@ body {
     padding: 3rem 0;
 }
 
-.wrapper .sidebar .logo {
-    margin: 3em;
-    text-align: center;
-}
-
-.wrapper .sidebar .logo img {
-    width: 13vh;
-}
-
 .wrapper .sidebar .menu-illustration ul {
     list-style: none;
     margin-top: 5vh;
